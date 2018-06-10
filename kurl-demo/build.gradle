@@ -4,7 +4,8 @@ version '1.0-SNAPSHOT'
 apply plugin: 'kotlin'
 
 dependencies {
-    compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
+    implementation 'com.squareup.okhttp3:okhttp:3.10.0'
 }
 
 compileKotlin {

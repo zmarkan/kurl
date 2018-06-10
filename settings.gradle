@@ -1,4 +1,2 @@
-//rootProject.name = 'kurl'
-include 'kurl-lib', 'kurl-demo'
-//include 'kurl-demo'
+include 'kurl-demo'
 
